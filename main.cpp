@@ -85,6 +85,7 @@ int main()
         }
     }
     imshow( "img_Resault", img_Resault );
+    imwrite( "img_Resault.png", img_Resault );
     
     waitKey(0);
     return 0;
